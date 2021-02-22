@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>OneSound.Feature.Homepage</RootNamespace>
+    <AssemblyName>OneSound.Feature.Homepage</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Views\Homepage\BuyNow.cshtml" />
+    <None Remove="Views\Homepage\ContactUs.cshtml" />
+    <None Remove="Views\Homepage\FeaturedArtist.cshtml" />
+    <None Remove="Views\Homepage\LatestAlbums.cshtml" />
+    <None Remove="Views\Homepage\WeeksTop.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\SitecoreHelperExtensions\code\OneSound.Foundation.SitecoreHelperExtensions.csproj" />
+  </ItemGroup>
+</Project>

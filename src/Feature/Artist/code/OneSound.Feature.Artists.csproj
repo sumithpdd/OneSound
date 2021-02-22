@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>OneSound.Feature.Artists</RootNamespace>
+    <AssemblyName>OneSound.Feature.Artists</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Views\Artists\LatestAlbums.cshtml" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>OneSound.Feature.PageContent</RootNamespace>
+    <AssemblyName>OneSound.Feature.PageContent</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\SitecoreHelperExtensions\code\OneSound.Foundation.SitecoreHelperExtensions.csproj" />
+  </ItemGroup>
+</Project>

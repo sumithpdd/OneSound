@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>OneSound.Project.Website</RootNamespace>
+    <AssemblyName>OneSound.Project.Website</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="App_Config\Include\Project\OneSound.Project.Website\SiteDefinition.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="assets\audio\dummy-audio.mp3" />
+    <None Remove="assets\css\style.css" />
+    <None Remove="assets\css\style.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\audio\dummy-audio.mp3" />
+    <Content Include="assets\css\style.css.map" />
+  </ItemGroup>
+</Project>

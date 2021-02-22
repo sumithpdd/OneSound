@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>OneSound.Feature.News</RootNamespace>
+    <AssemblyName>OneSound.Feature.News</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Views\News\NewsDetails.cshtml" />
+    <None Remove="Views\News\NewsLanding.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\SitecoreHelperExtensions\code\OneSound.Foundation.SitecoreHelperExtensions.csproj" />
+  </ItemGroup>
+</Project>
