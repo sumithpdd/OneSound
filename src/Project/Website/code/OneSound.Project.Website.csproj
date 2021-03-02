@@ -17,4 +17,7 @@
     <Content Include="assets\audio\dummy-audio.mp3" />
     <Content Include="assets\css\style.css.map" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.Net.Compilers" Version="3.8.0" />
+  </ItemGroup>
 </Project>

@@ -8,4 +8,7 @@
   <ItemGroup>
     <None Remove="Views\Artists\LatestAlbums.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.Net.Compilers" Version="3.8.0" />
+  </ItemGroup>
 </Project>

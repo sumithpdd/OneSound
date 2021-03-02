@@ -15,4 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\SitecoreHelperExtensions\code\OneSound.Foundation.SitecoreHelperExtensions.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.Net.Compilers" Version="3.8.0" />
+  </ItemGroup>
 </Project>
